@@ -28,6 +28,7 @@ export default function Root(props) {
     <main style={props.style}>
       <h1>I am the <strong>Green React</strong> micro front-end (MFE) application.</h1>
       <hr className="py-2" />
+      
       <p>I do a little more than my <strong>Smiley</strong> cousin, if you <ClickMe onClick={() => handleTree()} /> I plant trees and give Smiley a 🦄.</p>
       <p>
         The take away is that you can share state between MFEs by leveraging a shared concern, in this instance <code>rxjs</code> and <code>BehaviorSubject</code>.
